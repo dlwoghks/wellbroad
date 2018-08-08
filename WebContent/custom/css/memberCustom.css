@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.sub {
+	width: 90%;
+	height: 500px;
+}
+
+.sub .sub-menu {
+	float: left;
+	width: 150px;
+	height: 100%;
+}
+
+.sub .sub-menu ul li {
+	width: 100%;
+}
+
+.sub .sub-menu .active {
+	background: lightgray;
+}
+
+.form-control {
+	width: 120px !important;
+}
+
+.sub .sub-main {
+	margin-left: 150px;
+	color: black;
+	/* background:pink; */
+	padding-left:20px;
+}
+
+.sub .sub-main .sub-container {
+	padding: 10px;
+}
+
+.sub .sub-main .row {
+	height: 60px;
+}

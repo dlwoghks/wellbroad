@@ -1,0 +1,304 @@
+
+body{
+	color:black;
+}
+
+
+.arrow{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.add-icon{
+	height:250px;
+}
+.arrow-icon{
+	width:20px;
+	height:20px;
+	text-align:center;
+}
+.add-icon .arrowb{
+	width:10px;
+	height:20px;
+	margin-left:5px;
+	margin-right:5px; 
+}
+
+.arow-icon img{
+	width:20px;
+	height:20px;
+}
+
+.tour-icon-list{
+	width:auto;
+	height:auto;
+	float:left;
+ 	display: inline-flex;
+  	flex-flow: row wrap;
+  	/* 	flex-flow:column wrap; */
+ 	/*  flex-flow:row-reverse wrap; */
+	align-items: baseline;
+	visibility:visible;
+	margin:10px;
+}
+
+.tour-icon{
+	width:150px;
+	height:250px;
+	text-align:center;
+}
+.tour-icon img{
+	width:150px;
+	height:150px;
+}
+
+.icon-group{
+	float:left;
+	width:100%;
+	height:auto;
+}
+
+.add-icon .btn{
+	width:175px;
+	height:175px;
+}
+
+.add-icon img{
+	padding-top:0px;
+	padding:0px;
+	
+	margin-top:-7px;
+	margin-left:-17px;
+	width:155px;
+	height:155px;
+	vertical-align:none;
+}
+
+.modal-val{
+	text-align:center;
+}
+
+.container2{
+	padding-top:40px;
+}
+
+
+.page-header{
+	color:white;	
+	
+}
+
+.col-md-2{
+	padding-top:50px;
+	padding:30px;
+		
+}
+
+.nav2 li{
+	font-color:#18d5d1;
+	font-size:20px;
+	list-style:none;
+	padding:10px;
+}
+
+.col-md-10{
+	padding-top:50px;
+	padding-left:70px;
+	height:auto;
+}
+
+label[for=name]
+{
+   color:black;
+}
+
+
+
+
+.form-control{
+	width:120px !important;
+	/* display:auto; */
+	
+}
+/* #wrtDtReg{
+	background-color:white;
+} */
+#datepicker1{
+	background-color:white;
+}
+#datepicker2{
+	background-color:white;
+}
+.who{
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+.who h3{
+	color: #313131;
+	font-size: 15px;
+	padding: 15px 30px;
+	text-transform: capitalize;
+}
+.who-detail{
+	font-size: 13px;   
+	color: #969595;
+	line-height: 200%;
+	padding: 0 30px 20px;
+}
+.who-img{
+	width: 100%;
+}
+.story-and-client .section-title{
+	text-align: left;
+}
+.story-img{
+	float: left;
+	width: 131px;
+	margin: 10px 30px 20px 0;
+}
+.story-detail{
+	line-height: 180%;
+	padding: 5px 10px 0px 0px;
+	font-size: 13px;
+}
+.table{
+	margin-top: 22px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	padding: 14px 0;
+}
+tbody tr{
+	border: 1px solid #ddd;
+}
+tbody tr td{
+	text-align: center;
+}
+tbody tr td:nth-child(1){
+	width: 15%;
+}
+tbody tr td:nth-child(2){
+	width: 75%;
+}
+tbody tr td:nth-child(3){
+	width: 10%;
+}
+tbody{
+	color: #969595;
+}
+.progress{
+	margin-bottom: 0;
+	background: #fff;
+	height: 10px;
+	margin: 6px 0;
+}
+.progress-bar{
+	background: #60c9eb;
+	border-radius: 10px;
+	width: 10px;
+}
+.video-frame{
+	width: 100%;
+	height: 100%;
+}
+
+
+/* 버튼 */
+
+.modal-dialog.modal-80size {
+  width: 80%;
+  height: 80%;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.modal-content.modal-80size {
+  height: auto;
+  min-height: 80%;
+  
+}
+
+.modal.modal-center {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .modal.modal-center:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog.modal-center {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+
+}
+
+ /* Important part
+.modal-dialog{
+    overflow-y: initial !important;
+ 
+} */ 
+.modal-body{
+    height: 80%;
+    overflow-y: auto; 
+}
+
+
+
+.modalimg{
+	float:left;
+
+}
+
+#datapickerBox .form-control{
+	cursor:default;
+		
+}
+
+label[for=name]{
+	color:#00CED1 !important;
+	font-size:18px;
+}
+.form-inline .form-group{
+	color:#4682B4;
+	font-size:18px;
+}
+
+.day-group{
+	margin-top:50px;	
+
+.datepicker table tr td.today, .datepicker table tr td.today:hover, .datepicker table tr td.today.disabled, .datepicker table tr td.today.disabled:hover
+{
+	background-color: #40E0D0 !important;
+	color:white !important;
+}
+
+
+.navbar0{
+	margin-bottom:5px !important;
+	
+	
+}
+
+.breadcrumb>.active{
+   color:white;
+}
+
+
+
+nav.navbar.navbar-default {
+    background-color: white !important;
+    margin: 0;
+    padding: 0px !important;
+	margin-bottom:5px;
+
+}
+
+.navbar-default{
+		margin-bottom:5px;
+}

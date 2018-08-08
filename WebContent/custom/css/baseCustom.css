@@ -1,0 +1,88 @@
+@charset "UTF-8";
+.sub {
+	position: relative;
+}
+
+.sub-container1 {
+	margin-left: 200px;
+	margin-top: 100px !important;
+	height: 150px;
+	margin-bottom: -100px;
+}
+
+
+.header-upper {
+	margin-top: 10px;
+	float: right;
+	margin-right: -30px;
+}
+
+.header-upper-menu {
+	color: gray;
+	margin-right: 20px;
+}
+
+ul.nav.navbar-nav.navbar-right {
+	margin-right: -100px;
+}
+
+ul.nav.navbar-nav.navbar-right li {
+	margin-top: 65px;
+}
+
+ul.nav.navbar-nav.navbar-right li a {
+	font-size: 20px;
+	font-weight: normal;
+	color: #18d5d1;
+}
+
+.breadcrumb {
+	list-style: none;
+	background-color: transparent !important;
+	border-radius: 0px;
+}
+
+.page-header0 {
+	padding-bottom: 9px;
+	margin: 40px 0 10px;
+	font-size: 60px;
+	color: white;
+}
+.sub {
+	width: 90%;
+	height: 100%;
+}
+
+.sub .sub-menu {
+	float: left;
+	width: 150px;
+	height: 100%;
+}
+
+.sub .sub-menu ul li {
+	width: 100%;
+}
+
+.sub .sub-menu .active {
+	background: lightgray;
+}
+
+.form-control {
+	width: 120px !important;
+}
+
+.sub .sub-main {
+	margin-top:30px;
+	margin-left: 150px;
+	color: black;
+	/* background:pink; */
+	padding-left:20px;
+}
+
+.sub .sub-main .sub-container {
+	padding: 10px;
+}
+
+.sub .sub-main .row {
+	height: 60px;
+}

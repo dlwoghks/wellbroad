@@ -1,0 +1,217 @@
+#sub {
+	position: relative;
+	height: 100%;
+}
+
+.header-upper {
+	margin-top: 50px;
+	float: right;
+	margin-right: -30px;
+	float: right;
+}
+
+.header-upper-menu {
+	color: gray;
+	margin-right: 20px;
+}
+
+ul.nav.navbar-nav.navbar-right {
+	margin-right: -100px;
+}
+
+ul.nav.navbar-nav.navbar-right li {
+	margin-top: 65px;
+}
+
+ul.nav.navbar-nav.navbar-right li a {
+	font-size: 20px;
+	font-weight: normal;
+	color: #18d5d1;
+}
+
+.breadcrumb {
+	list-style: none;
+	background-color: transparent !important;
+	border-radius: 0px;
+}
+
+.breadcrumb>li {
+	color: white;
+}
+
+h2 .page-header0 {
+	/*    padding-bottom: 9px; */
+	/*  margin: 40px 0 px; */
+	margin-bottom: 0px;
+	font-size: 60px;
+}
+
+.page-header1 {
+	color: #fff;
+	font-size: 20px;
+}
+
+/* ------------------------admin으로 로그인해서 side.jsp 추가되었을 때 ------------------------ */
+.admin-main {
+	margin-left: 60px;
+}
+
+.breadcrumb a {
+	color: #fff;
+	border: 1px solid transparent;
+	text-decoration: none;
+	padding: 5px;
+}
+
+/* ------ */
+.tablecontent1 {
+	width: 80%;
+	text-align: center;
+	border: #4682B4;
+	padding: 70px;
+	margin-left: 90px;
+}
+
+#titlecolor:hover {
+	background-color: #F5FFFA;
+}
+
+.notice {
+	width: 500px;
+	margin: 20px;
+	color: #337ab7;
+	float: left;
+	margin-top: 30px;
+	margin-left: 90px;
+}
+
+.num-h {
+	margin: 0px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-right: 50px;
+	text-align: center;
+}
+
+.article {
+	margin-left: 150px;
+}
+
+.row1 {
+	margin-left: 150px;
+	margin-top: 50px !important;
+	height: 150px;
+}
+
+.write {
+	FLOAT: RIGHT;
+    MARGIN-RIGHT: 15%;
+}
+
+.pagination-next {
+	display: inline-block;
+}
+
+.pagination-next a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+#searchform {
+	color: black;
+ 	text-align:center;
+ 	margin-left:30px;
+	margin-bottom: 300px;
+}
+
+.notice-h {
+	padding-bottom: 9px;
+	font-size: 60px;
+	margin: 40px 0 10px;
+}
+
+td {
+	color: black;
+	text-decoration: none;
+}
+
+tbody {
+	margin-left: 180px !important;
+}
+
+/*--------------------  */
+.navbar-brand {
+	margin-bottom: 50px;
+}
+
+table {
+	background: white;
+	border-collapse: collapse;
+	margin: 1.25em 0 0;
+	margin-left: 15px;
+	width: 98%;
+}
+
+table tr, table th, table td {
+	border: none;
+	border-bottom: 1px solid #e8e8e8;
+	font-size: 15px;
+}
+
+table th, table td {
+	padding: 10px 12px;
+	text-align: left;
+}
+
+table th {
+	background: #70dad5;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+table tr td {
+	background: #FFFFF;
+	color: #424242;
+}
+
+table tr:nth-of-type(2n+2) td {
+	background: #ffffff;
+}
+
+.btn {
+	margin-top: -5px;
+}
+
+.form-control {
+	display: inline-block !important;
+	margin-right: 10px;
+	border-radius: 2px;
+}
+
+.btn-info {
+	background-color: #5bc0de !important;
+}
+
+#searchform>input.form-control {
+	width: 200px;
+}
+
+#searchform>select {
+	width: 120px;
+}
+
+#searchform>.btn {
+	width: 70px;
+}
+
+.sub-main {
+	margin-top: -60px;
+}
+
+.sub .sub-menu ul li {
+	width: 100%;
+}
+.sub .sub-menu .active {
+	background: lightgray;
+}
